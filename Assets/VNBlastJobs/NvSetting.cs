@@ -25,7 +25,7 @@ namespace NVBlastECS.Test
         public bool generateJoint=true;
         public float jointBreakForce=20;
         public float density=4;
-        [Range(0,1)]
+        [Range(0,2)]
         public float viscosity=1;
 
         public bool islands;
